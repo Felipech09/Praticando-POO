@@ -8,7 +8,7 @@ Siga as intruções abaixo:
 4) A interpretação das questões é parte integrante da avaliação;
 5) Crie um arquivo .py e .java para cada questão  e ao final da prova faça um arquivo .zip ou .rar das questões.
 
-## QUESTÃO 1:
+QUESTÃO 1:
 
 Alunos estão se cadastrando para um cuso de programação em Python. Implemente um programa ORIENTADO A OBJETOS que consulte se um CPF está cadastrado. Para que a lista de CPFs dos alunos não vaze na internet, para acessar a lista completa, o usuário deverá forcener senha.
 
@@ -26,10 +26,10 @@ C) Remover um CPF da fila
 3. No menu 3, chame o método removerCPF(). Excluir o CPF digitado da fila ou informar que ele não existe na fila.
 4. No menu 4, feche o programa.
 
-# Dica 1: Para atributos privados é necessário utilizar os métodos especiais Getters e Setters ou Properties.
-# Dica 2: É interessante perguntar ao usuário o que ele quer fazer, após a escolha do usuário, armazene o valor de CPF em uma variável e depois instancie o objeto do tipo CPF, por exemplo, cpf1.inserirCPF(variável) ou chame o método e passe o valor.
-# Dica 3: Faça comentários no seu código.
-# Dica 4: Inicialize os atributos da classe CPF, por exemplo CPF cpf1;
+Dica 1: Para atributos privados é necessário utilizar os métodos especiais Getters e Setters ou Properties.
+Dica 2: É interessante perguntar ao usuário o que ele quer fazer, após a escolha do usuário, armazene o valor de CPF em uma variável e depois instancie o objeto do tipo CPF, por exemplo, cpf1.inserirCPF(variável) ou chame o método e passe o valor.
+Dica 3: Faça comentários no seu código.
+Dica 4: Inicialize os atributos da classe CPF, por exemplo CPF cpf1;
 cpf1.inserirCPF(999.999.999-99).
 
-# DIca 5: Faça o menu com match e case
+Dica 5: Faça o menu com match e case
