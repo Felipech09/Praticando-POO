@@ -30,5 +30,17 @@ public void listarCPF (String senha) {
         System.out.println(cpf);
       }
     }
+  } else {
+    System.out.println("Senha incorreta!");
+  }
+}
+
+public void removerCPF(String cpf) {
+  if (fila.contains(cpf)) {
+  fila.remove(cpf);
+  System.out.println("CPF removido com sucesso!");
+  } else {
+  System.out.printon("CPF não encontrado na fila!");
+    }
   }
 }
