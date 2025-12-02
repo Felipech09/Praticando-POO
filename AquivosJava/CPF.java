@@ -1,14 +1,17 @@
+// Importa a estrutura de dados ArrayList
 import java.util.ArrayList;
+// Importar a interface List
 import java.util.List;
 
-public class CPF
-
+// Classe responsável por controlar os CPFs
+public class CPF{
 
   // Atributo que guardará de modo privado a lista de CPFs
 private List<String> fila;
 
-// COnstrutor de classe
+// COnstrutor de classe que só srá executado quando o objeto for criado
 public CPF() {
+  // Inicializa a fila com uma lista vazia
   this.fila = new ArrayList<>();
 }
 
