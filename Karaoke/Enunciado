@@ -1,0 +1,39 @@
+Você está em um karaokê lotado numa sexta-feira à noite. As luzes piscam, a plateia vibra, mas atrás do balcão o atendente está desesperado. Ele segura uma pilha de papéis rabiscados com nomes e músicas, tentando organizar quem vai cantar. A cada cinco minutos alguém reclama:
+
+- “Ei, eu já estava na fila!”
+
+- “Troquei de música, anota aí!”
+
+- “Ele pediu depois de mim, porque passou na minha frente?”
+
+O caos é tanto que o atendente olha para você e diz:
+
+“Você não manja de programação? Preciso de um sistema urgente pra organizar essa bagunça. Algo que controle a fila, porque eu vivo me perdendo!”
+
+Seu desafio é criar um sistema que resolva esse problema. O programa deve:
+
+- Permitir adicionar pessoas à fila, sempre no final, com nome e música obrigatórios.
+
+- Cada pessoa deve receber um ID único ao entrar na fila, para evitar confusões com nomes repetidos.
+
+- Garantir que no máximo duas pessoas possam cantar juntas.
+
+- Possibilitar remover alguém pelo ID.
+
+- Permitir alterar a música de quem já está na fila, tambéem pelo ID.
+
+- Ter a opção de chamar a próxima pessoa, removendo-a automaticamente da fila.
+
+- Manter a ordem justa: ninguém pode furar fila.
+
+O atendente também pediu que o sistema tenha um menu interativo no console, com opções claras para cada ação.
+
+- Adicionar pessoa;
+
+- Remover pessoa;
+
+- Alterar música;
+
+- Chamar próxima pessoa;
+
+- Sair.
