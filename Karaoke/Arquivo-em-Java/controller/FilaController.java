@@ -3,10 +3,10 @@ import java.util.LinkedList;
 
 public class FilaController { 
   private Queue<Pessoa> fila; 
-  private int totalCantaram;
-  
+}
+
   public FilaController() { 
-    fila = new LinkedList<>(); totalCantaram = 0; 
+    fila = new LinkedList<>();
   }
 
   // adicionar
@@ -25,3 +25,32 @@ public void adicionarPessoa(String nome, String musica) {
       System.out.println("ID não encontrado."); 
     } 
   }
+
+public void aletararMusica(int id, String novaMusica) {
+  for (Pessoa p : fila) {
+    if (p.getId() == id) {
+      p.setMusica(novaMusica);
+      System.out.println("Música alterada com sucesso!");
+      return;
+    }
+  }
+  System.out.println("ID não encontrado");
+}
+
+public void chamarProxima(){
+  Pessoa p = fila.poll();
+  if (p != null) {
+    System.out.println("Chamando agora: " + p.getNome() + " para cantar [" + p.getMusica() + "]);
+  } else {
+    System.out.printon ("A fila está vazia!");
+  }
+}
+
+public void mostrarFila(){
+  if (fila.isempty()){
+    System.out.println("Fila vazia!");
+  } else {
+    System.out.println (" \n --- A fila está organizada da seguinte maneira: --- \n");
+    fila.forEach(System.out: :println);
+  }
+}
