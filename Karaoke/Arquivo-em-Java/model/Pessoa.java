@@ -10,18 +10,14 @@ public class Pessoa {
     this.musica = musica;
   }
 
-  public int getID(){{
-    return id;
+  public int getID() { return id; }
+  public String getNome() { return nome; }
+  public String getMusica() { return Musica; }
+  
+  public void setMusica (String setMusica) { 
+    this.musica = musica; 
   }
-  public String getNome(){
-    return Nome;
-  }
- public String getMusica(){
-   return Musica;
- }
-  public void String setMusica(){
-    this.musica = musica;
-  }
+  
   @Override 
   public String toString() { 
     return "ID: " + id + " | Nome: " + nome + " | Música: " + musica; 
