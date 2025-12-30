@@ -2,15 +2,15 @@ ENUNCIADO:
 
 Siga as intruções abaixo:
 
-1) Aprova deverá ser resolvida em Python ou java;
-2) Incluir comentários no seu código, explicando o que a respectiva parte do código faz, om o objetivo de mostrar onde e como você resolveu cada item solicitadonasd questões;
+1) A prova deverá ser resolvida em Python ou java;
+2) Incluir comentários no seu código, explicando o que a respectiva parte do código faz, om o objetivo de mostrar onde e como você resolveu cada item solicitado nas questões;
 3) Não serão aceitos programas copiados da Internet;
 4) A interpretação das questões é parte integrante da avaliação;
-5) Crie um arquivo .py e .java para cada questão  e ao final da prova faça um arquivo .zip ou .rar das questões.
+5) Crie um arquivo .py e .java para cada questão e ao final da prova faça um arquivo .zip ou .rar das questões.
 
 QUESTÃO 1:
 
-Alunos estão se cadastrando para um cuso de programação em Python. Implemente um programa ORIENTADO A OBJETOS que consulte se um CPF está cadastrado. Para que a lista de CPFs dos alunos não vaze na internet, para acessar a lista completa, o usuário deverá forcener senha.
+Alunos estão se cadastrando para um cuso de programação em MySQL. Implemente um programa ORIENTADO A OBJETOS que consulte se um CPF está cadastrado. Para que a lista de CPFs dos alunos não vaze na internet, para acessar a lista completa, o usuário deverá forcener senha.
 
 A) Inserir um CPF na fila (apenas os números inteiros)
 B) Listar os CPF da fila (peir senha: redes2025)
