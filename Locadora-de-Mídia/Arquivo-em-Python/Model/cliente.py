@@ -1,4 +1,3 @@
-# models/cliente.py
 class Cliente:
     def __init__(self, id, nome, documento, email):
         self.id = id
