@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Menu {
-    public static void main(String[] args) {
+    public void iniciar() {
         Scanner sc = new Scanner(System.in);
         FilaController controller = new FilaController();
 
@@ -14,7 +14,8 @@ public class Menu {
             System.out.println("4 - Chamar próxima pessoa");
             System.out.println("5 - Mostrar fila");
             System.out.println("0 - Sair");
-            System.out.print("=========Escolha=========");
+            System.out.print("Escolha uma opção: ");
+
             opcao = sc.nextInt();
             sc.nextLine();
 
