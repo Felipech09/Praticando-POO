@@ -1,15 +1,22 @@
-from models.midia import Midia
+from models.locacao import Locacao
 
-class MidiaController:
+class LocacaoController:
     def __init__(self):
-        self.midias = []
+        self.locacoes = []
         self.next_id = 1
 
-    def criar(self, titulo, tipo, classificacao, estoque_total, preco_base):
-        midia = Midia(self.next_id, titulo, tipo, classificacao, estoque_total, preco_base)
-        self.midias.append(midia)
+    def abrir(self, cliente, midia, dias):
+        if not midia.disponivel():
+            raise ValueError("Mídia indisponível.")
+        midia.reservar()
+        locacao = Locacao(self.next_id, cliente, midia, dias)
+        self.locacoes.append(locacao)
         self.next_id += 1
-        return midia
+        return locacao
 
-    def listar(self):
-        return self.midias
+    def encerrar(self, locacao_id):
+        loc = next((l for l in self.locacoes if l.id == locacao_id), None)
+        if not loc or loc.status != "ABERTA":
+            raise ValueError("Locação inválida.")
+        loc.encerrar()
+        return loc
