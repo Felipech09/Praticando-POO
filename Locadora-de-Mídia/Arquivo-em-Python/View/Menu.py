@@ -1,4 +1,4 @@
-class MenuView:
+class Menu:
     @staticmethod
     def mostrar():
       print("\n === Locadora de mídia ===")
