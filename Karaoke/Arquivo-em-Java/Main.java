@@ -2,4 +2,3 @@
         Menu menu = new Menu();
         menu.iniciar();
     }
-}
