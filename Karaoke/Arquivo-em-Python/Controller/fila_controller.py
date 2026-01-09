@@ -27,7 +27,7 @@ class FilaController:
     def chamar_proxima(self):
         p = self.fila_karaoke.chamar_proxima()
         if p:
-            print(f"Chamando agora: {p.get_nome()} para cantar '{p.get_musica()}'")
+            print(f"Chamando agora: {p.get_nome()} para cantar '{p.get_musica()}'") # Depois adicionar chamada por voz
         else:
             print("A fila está vazia.")
 
